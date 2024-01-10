@@ -10,8 +10,7 @@ export default function Footer() {
         <li>
           <Typography
             as="a"
-            href="#"
-            color="blue-gray"
+            href="/about"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
             About Us
@@ -20,27 +19,17 @@ export default function Footer() {
         <li>
           <Typography
             as="a"
-            href="#"
-            color="blue-gray"
+            href="/profile"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
-            License
+            Team
           </Typography>
         </li>
+
         <li>
           <Typography
             as="a"
-            href="#"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-          >
-            Contribute
-          </Typography>
-        </li>
-        <li>
-          <Typography
-            as="a"
-            href="#"
+            href="/contact"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >

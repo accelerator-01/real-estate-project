@@ -5,6 +5,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function About() {
   const [open, setOpen] = useState(1);
@@ -12,9 +13,9 @@ export default function About() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <>
+    <div className="container mx-auto">
       <Header />
-      <div className="container mx-10 py-10">
+      <>
         <h1 className="font-extrabold text-[50px] mb-3 text-blue-gray-900 ml-5">
           About Us
         </h1>
@@ -76,7 +77,8 @@ export default function About() {
             magnam. Tempora neque itaque exercitationem ad modi!
           </AccordionBody>
         </Accordion>
-      </div>
-    </>
+      </>
+      <Footer />
+    </div>
   );
 }
