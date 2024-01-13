@@ -39,22 +39,6 @@ function NavList() {
           </Button>
         </a>
       </Typography>
-      {/* <Typography as="li" className="p-1 font-medium">
-        <a
-          href="/login"
-          className="flex items-center hover:text-blue-500 transition-colors"
-        >
-          Login
-        </a>
-      </Typography>
-      <Typography as="li" className="p-1 font-medium">
-        <a
-          href="/register"
-          className="flex items-center hover:text-blue-500 transition-colors"
-        >
-          Register
-        </a>
-      </Typography> */}
     </ul>
   );
 }
